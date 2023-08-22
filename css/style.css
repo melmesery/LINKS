@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
+
+body {
+  font-family: "Markazi Text", serif;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+h1 {
+  text-decoration: underline rosybrown;
+}
+
+.dashboard {
+  width: 50%;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.auth_card {
+  padding: 15px;
+  background: #fff;
+  color: #000;
+}
+
+.auth_card h3 {
+  color: red;
+}
+
+.email,
+.password {
+  display: flex;
+  gap: 10px;
+}
+
+.email,
+.password p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.projects_cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.project_card {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  background: rgba(128, 128, 128, 0.081);
+}
+
+.project_name {
+  margin: 0 !important;
+  text-decoration: underline tan;
+}
+
+.project_card a {
+  color: #000;
+  border-left: goldenrod solid 1px;
+  padding: 0 10px;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.project_card a:hover {
+  background: goldenrod;
+}
+
+footer {
+  text-align: center;
+  margin: 10px 0 !important;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.social a:hover {
+  text-decoration: underline burlywood;
+}
