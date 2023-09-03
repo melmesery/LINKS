@@ -51,6 +51,17 @@ h1 {
   background: rgba(128, 128, 128, 0.081);
 }
 
+.no {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.no span {
+  font-size: 2rem;
+  color: red;
+}
+
 .project_name {
   margin: 0 !important;
   text-decoration: underline tan;
